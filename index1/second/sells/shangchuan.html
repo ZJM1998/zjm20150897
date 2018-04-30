@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <title>普通按钮button</title>
+</head>
+<body>
+请上传图片:
+<br>
+<form name="form1" method="post" action="index.html">
+    商品名称：<br />
+    　　　　<textarea rows="1" cols="40">请填写您上传物品的名称</textarea>
+</form>
+<br>
+<form name="form1" method="post" action="index.html">
+    商品描述：<br />
+    　　　　<textarea rows="8" cols="40">请介绍一下您上传的物品</textarea>
+</form>
+<br/>
+    请上传图片:
+<form name="form1" method="post" action="index.html" enctype="multipart/form-data">
+        　　　　　<input type="file"/>
+</form>
+<br>
+<form name="form1" method="post" action="index.html">
+    　　　　<textarea rows="8" cols="40">图片上传</textarea>
+</form>
+<br>
+请输入卖价：<input type="text"/>
+<br>
+<br>
+请选择标签:<select>
+    　　　　<option>书籍</option>
+    　　　　<option>电子设备</option>
+    　　　　<option>自行车</option>
+    　　　　<option>服装</option>
+    　　　　<option>化妆品</option>
+    　　　　<option>植株</option>
+            <option>生活用品</option>
+    　　　　<option>动漫</option>
+            <option>其他</option>
+</select>
+<br>
+<br>
+　　　<input type="button" value="上传" onclick="alert('您已成功上传')">
+
+
+
+
+
+
+
+</body>
+</html>
